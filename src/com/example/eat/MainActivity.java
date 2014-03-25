@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
 	{
 		final Dialog d = new Dialog(this);
 		d.setContentView(R.layout.dialog);
-		d.setTitle("Thêm món");
+		d.setTitle("ThÍm MÛn");
 		d.setCancelable(true);
 		final EditText et = (EditText) d.findViewById(R.id.editText);
 		Button b = (Button) d.findViewById(R.id.btThem);
